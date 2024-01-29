@@ -1,0 +1,46 @@
+/* GlassDetails.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+  font-size: 28px;
+}
+
+img {
+  max-width: 70%;
+  height: auto;
+  margin-top: 20px;
+  max-height: 400px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+  font-size: 18px;
+}
+
+h3 {
+  color: #007bff;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #444;
+  font-size: 18px;
+}

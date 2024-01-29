@@ -1,0 +1,42 @@
+#main-slider-container {
+    background-color: #5e5d78;
+      max-width: 1500px; /* Set the maximum width of the slider */
+      margin: 0 auto; /* Center the slider horizontally */
+      padding: 70px; /* Add padding around the slider */
+      margin-left: 10px; /* Adjust the left margin to shift the slider to the right */
+      margin-top: 50px;
+    }
+  
+  .slider-card {
+    max-width: 500px; /* Set the maximum width of each card */
+    max-height: 400px;
+    width: 100%; /* Ensure each card takes the full width of its container */
+    margin: 0 10px; /* Add some margin between each card */
+  }
+  
+  .slider-card-img {
+    max-width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  .react-card-slider-container {
+    max-height: 400px; /* Set the maximum height of the slider */
+    overflow: hidden; /* Hide the overflow to limit the number of visible slides */
+  }
+  
+  @media screen and (max-width: 768px) {
+    #main-slider-container {
+      max-width: 100%;
+      margin-left: 0;
+    }
+  
+    /* Change the class name to slider-card */
+    .slider-card {
+      max-width: 100%;
+      margin: 0 5px;
+    }
+  
+    .react-card-slider-container {
+      max-height: 300px;
+    }
+  }

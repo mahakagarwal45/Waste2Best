@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #1f5156;
+  background-color:#6DA4AA;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 .nav-logo {
-  color: #f5b921;
+  color: #433164;;
   align-items: center;
   margin-left: 20px;
   cursor: pointer;
@@ -75,12 +75,12 @@
 
 .nav-item:hover:after {
   width: 100%;
-  background: #ffdd40;
+  background: #433164;
 }
 
 .nav-item .active {
-  color: #ffdd40;
-  border: 1px solid #ffdd40;
+  color: #433164;
+  border: 1px solid #433164;
 }
 
 .nav-icon {
@@ -115,7 +115,7 @@
     z-index: 1;
   }
   .nav-item .active {
-    color: #ffdd40;
+    color: #433164;
     border: none;
   }
   .nav-links {
@@ -138,6 +138,30 @@
     width: 2rem;
     height: 2rem;
     cursor: pointer;
-    color: #ffdd40;
+    color: #433164;
+  }
+}
+
+
+.search-box {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.search-box input {
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  margin-right: 5px;
+}
+
+.search-box .icon {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .search-box {
+    display: none;
   }
 }
