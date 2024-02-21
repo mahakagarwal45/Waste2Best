@@ -52,41 +52,6 @@ const sendWelcomeEmail = async () => {
   const handleRegister = async (e) => {
     e.preventDefault();
     const{ name, email, password, street, city, landmark, contact } = formData;
-//     if(name && email && password && street && city && landmark && contact){
-//     const res = fetch("https://waste2best-85b0d-default-rtdb.firebaseio.com/userDataRecords.json", {
-//         method: "POST",
-//         headers: {
-//           'Content-Type': 'application/json',
-//         },
-//         body: JSON.stringify({
-//           name,
-//           email,
-//           password,
-//           street,
-//           city,
-//           landmark,
-//           contact }),
-//     });
-
-  
-  
-//   if(res){
-//     setFormData({
-//       name: '',
-//       email: '',
-//       password: '',
-//       street: '',
-//       city: '',
-//       landmark: '',
-//       contact: '',
-//     })
-//     alert("Data stored");
-//   }
-//   else{
-//     alert("Please fill the Data");
-//   }
-// }
-// };
 
 try {
   const auth = getAuth();
@@ -120,8 +85,6 @@ try {
   alert('Data stored');
   sendWelcomeEmail();
 
-  // Add code to send welcome email here
-  // You can use Firebase Cloud Functions or an external service to send emails
 } catch (error) {
   console.error('Error during registration:', error);
   alert('Registration failed');
@@ -131,7 +94,7 @@ try {
 
   return (
     <div className="registration-container">
-      <h2>Register</h2>
+      <h2 className='headreg'>Register</h2>
       <form onSubmit={handleRegister} className="registration-form">
         <div className="form-group">
           <label htmlFor="name">Full Name:</label>
@@ -225,7 +188,7 @@ try {
           />
         </div>
 
-        <button onClick={handleRegister}><Link to="/">Register</Link></button>
+        <button onClick={handleRegister} className='btnr'><Link to="/">Register</Link></button>
       </form>
     </div>
   );

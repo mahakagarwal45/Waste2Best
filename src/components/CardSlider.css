@@ -8,11 +8,19 @@
     max-width: 800px;
   }
   
+  .react-multi-carousel-list {
+    padding-top: -400px;
+  }
+
+  .react-multi-carousel-item{
+    height:600px;
+  } 
   .card {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
+    height: 550px;
     text-align: center;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

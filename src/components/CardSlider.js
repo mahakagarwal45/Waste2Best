@@ -21,7 +21,7 @@ const responsive = {
 
 const dummyItems = [
   { id: 1, title: 'Glass', description: 'Give glass a second chance: recycle for a greener tomorrow and transform glass into extraordinary.', image: 'https://www.recycleannarbor.org/sites/default/files/2020-11/AdobeStock_231362035_0.jpeg' },
-  { id: 2, title: 'Plastics', description: 'Transforming pollution into a promise for a sustainable tomorrow, recycle plastics and save lives', image: 'https://www.howitworksdaily.com/wp-content/uploads/2015/09/plastic-bottles-1024x698.jpg' },
+  { id: 2, title: 'Plastics', description: 'Transforming pollution into a promise for a sustainable tomorrow, recycle plastics and save lives', image: 'https://img.freepik.com/premium-photo/empty-used-green-plastic-water-bottles-recycling-environment-concept_601748-14462.jpg?w=2000' },
   {id:3, title: 'Paper', description: 'From notebooks to newspapers: Paper waste reborn through recycling, forging sustainability in each fold', image: 'https://www.rubicon.com/wp-content/uploads/2022/01/newspaper-bundles-for-paper-recycling.jpg' },
   {id:4,title: 'Metals and Steels', description: 'Recycling metals and steel: reshaping durability for a sustainable tomorrow', image: 'https://www.zoresrecycling.com/blog/wp-content/uploads/2023/03/Scrap-Metal-Recycling-Company-Indianapolis.jpg' },
   {id:5, title: 'Jute and Jute Items', description: "Embrace sustainability, weave the future: Recycle and reuse jute, nature's versatile gift, for a greener tomorrow.", image: 'https://static.fibre2fashion.com/Newsresource/images/286/jute_298301.jpg' },

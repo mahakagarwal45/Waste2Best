@@ -99,9 +99,9 @@ class Login extends React.Component {
       <div className="base-container" ref={this.props.containerRef}>
         {/* ... existing code ... */}
         <div className="box">
-          <div className="header">
-            <h2>Login</h2>
-          </div>
+          
+            <h2 className="headlog">Login</h2>
+          
         <form>
           <div className="form">
             <div className="form-group">

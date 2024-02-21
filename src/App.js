@@ -4,8 +4,8 @@ import NavBar from './components/NavBar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from './components/Pages/Home';
 import  Map  from './components/Pages/Map';
-import About from './components/Pages/About';
 import Blog from './components/Pages/Blog';
+import About from './components/Pages/About';
 import FunFacts from './components/Pages/Funfacts';
 import Contact from './components/Pages/Contact';
 import Login from "./components/Pages/Login";
@@ -64,6 +64,7 @@ const App = () => {
             </div>
           }
         />
+
         <Route path="/map" element={<div className="pages"><Map /></div>} />
         <Route path="/blog" element={<div className="pages"><Blog /></div>} />
         <Route path="/funfacts" element={<div className="pages"><FunFacts /></div>} />

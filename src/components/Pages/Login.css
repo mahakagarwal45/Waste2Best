@@ -135,15 +135,17 @@ input {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.header {
+.headlog {
   text-align: center;
-  margin-bottom: 20px;
+  padding-right: 200px;
+  
 }
 
-.header h2 {
+/* .header h2 {
   margin: 0;
   color: #333;
-}
+  
+} */
 
 .form-group {
   margin-bottom: 20px;
@@ -173,10 +175,14 @@ input {
   border-radius: 4px;
   cursor: pointer;
 }
-
+.btn a{
+  text-decoration: none;
+  color: #fff;
+}
 .btn:hover {
   background-color: #309634;
 }
+
 
 .google-box {
   margin-top: 20px;

@@ -1,53 +1,58 @@
 .contziner {
-  background-image: url('https://evisionthemes.com/wp-content/uploads/2020/12/pattern1-min.png');
-  background-size: cover;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    cursor: pointer; /* Add this line to change the cursor to a hand */
-  }
-  
-  .card-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-  }
-  
-  .card {
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  .image-container {
-    width: 100%;
-    height: 0;
-    padding-bottom: 100%;
-    overflow: hidden;
-  }
-  
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .description {
-    padding: 15px;
-   
-  }
-  
-  p {
-    margin-bottom: 15px;
-  }
-  
-  .description-text {
-    font-size: 30px; /* Adjust the font size as needed */
-  }
+    background-image: url('https://evisionthemes.com/wp-content/uploads/2020/12/pattern1-min.png');
+    background-size: cover;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      cursor: pointer; 
+    }
+    
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      padding-left: 220px;
+    }
+    
+    .cardb {
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+      height: 400px;
+    }
+    
+    .card:hover {
+      transform: scale(1.05);
+    }
+    
+    .image-container {
+      width: 100%;
+      height: 500px;
+      padding-bottom: 100%;
+      overflow: hidden;
+    }
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    
+    p {
+        margin-bottom: 15px;
+      }
+      
+      #startb{
+        margin-top: -90px;
+        text-align: center;
+        padding-left: 260px;
+        padding-right: 60px;
+      }
+      .description-text {
+        font-size:15px;
+        margin-top: 700px; /* Adjust the font size as needed */
+      }

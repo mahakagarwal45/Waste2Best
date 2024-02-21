@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="about-us">
     <br/>
-      <h2>About Us</h2>
+      <h2 className='headingabout'>About Us</h2>
       <p>
 Welcome to Waste2Best, where sustainability meets innovation. Our team is dedicated to reshaping the future of waste management. With a focus on eco-friendly practices, we're on a mission to minimize environmental impact through creative recycling solutions.
 At Waste2Best, we believe in the power of collaboration, working closely with communities to promote sustainable living.

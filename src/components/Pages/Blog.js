@@ -11,6 +11,7 @@ const imageUrls = [
 ];
 
 const descriptions = [
+
   'The Art of Upcycling: Turning Trash Into Treasure',
   'Eco-Conscious Tailgating: Green Practices for Fall Sports Fans',
   'Recycling and Mental Health: The Therapeutic Benefits of Engaging in Recycling Activities',
@@ -35,12 +36,12 @@ const Blog = () => {
 
   return (
     <div className="container">
-      <p id='start'>Embark on a journey through diverse perspectives on recycling with our curated blog collection. From insightful eco-friendly tips to inspiring stories of sustainable living, explore a rich tapestry of articles that showcase the collective effort towards a greener and more conscientious world.</p>
+      <p id='startb'>Embark on a journey through diverse perspectives on recycling with our curated blog collection. From insightful eco-friendly tips to inspiring stories of sustainable living, explore a rich tapestry of articles that showcase the collective effort towards a greener and more conscientious world.</p>
       <div className="card-grid">
         {imageUrls.map((imageUrl, index) => (
-          <div className="card" key={index} onClick={() => handleContainerClick(index)}>
+          <div className="cardb" key={index} onClick={() => handleContainerClick(index)}>
             <div className="image-container">
-              <img src={imageUrl} alt={'Image ${index + 1}'} />
+              <img src={imageUrl} alt={`Image ${index + 1}`} />
             </div>
             <div className="description">
               <p className="description-text">{descriptions[index]}</p>

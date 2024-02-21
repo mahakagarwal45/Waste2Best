@@ -23,7 +23,7 @@ function NavBar({ onSearch, setSearchQuery }) {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            <span className="title">Waste2Best</span>
+            <span className="title"> Waste2Best </span>
               {/* <CodeIcon /> */}
           </NavLink>
 

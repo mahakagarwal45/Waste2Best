@@ -4,7 +4,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 15px;
-    background-color: #dbac91;
+    background-color: #fff;
     border-radius: 10px;
     color: #080707;
     font-size: 24px;
@@ -67,8 +67,12 @@ body {
     margin-right: 10px;
   }
   
-  button {
-    background-color: #cf906c;
+  .headreg{
+    text-align: center;
+    padding-right: 200px;
+  }
+  .btnr {
+    background-color: #4caf50;
     color: white;
     border: none;
     padding: 10px;
@@ -77,8 +81,13 @@ body {
     transition: background-color 0.3s ease;
   }
   
-  button:hover {
-    background-color: #cf906c;
+  .btnr a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  btnr:hover {
+    background-color: #309634;
   }
   
   .small-text {

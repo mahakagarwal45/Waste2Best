@@ -49,7 +49,7 @@ try {
         <div className="contact-container">
             <div className="contact-box">
                 <div className="contact-info">
-                    <h2>Contact Us</h2>
+                    <h2 className='contheading'>Contact Us</h2>
                     <p>Email: mahakagarwal45@gmail.com</p>
                     <p>Phone: +91 8979493542</p>
                 </div>
@@ -65,7 +65,7 @@ try {
                                 {/* Add link to success page */}
                             </div>
                         ) : (
-                            <button type="submit"><Link to="/">Submit</Link></button>
+                            <button type="submit" id="btn"><Link to="/">Submit</Link></button>
                         )}
                     </form>
                 </div>
