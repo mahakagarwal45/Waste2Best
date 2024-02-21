@@ -1,42 +1,69 @@
-#main-slider-container {
-    background-color: #5e5d78;
-      max-width: 1500px; /* Set the maximum width of the slider */
-      margin: 0 auto; /* Center the slider horizontally */
-      padding: 70px; /* Add padding around the slider */
-      margin-left: 10px; /* Adjust the left margin to shift the slider to the right */
-      margin-top: 50px;
-    }
+*{
+  margin: 0px;
+  padding: 0px;
+
+
+.about-us {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url(https://cdn.vectorstock.com/i/preview-1x/52/60/pastel-colours-bokeh-soft-light-backgrounds-vector-47685260.jpg);
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 5px 1px 5 px;
+}
+
+
+.image{
+  margin-top: 0px;
+  max-width: 100%;
+  background-size: cover;
+}
+.about-us h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-weight: bold;
   
-  .slider-card {
-    max-width: 500px; /* Set the maximum width of each card */
-    max-height: 400px;
-    width: 100%; /* Ensure each card takes the full width of its container */
-    margin: 0 10px; /* Add some margin between each card */
-  }
-  
-  .slider-card-img {
-    max-width: 100%; /* Make the image fill the container */
-    height: auto; /* Maintain the aspect ratio */
-  }
-  
-  .react-card-slider-container {
-    max-height: 400px; /* Set the maximum height of the slider */
-    overflow: hidden; /* Hide the overflow to limit the number of visible slides */
-  }
-  
-  @media screen and (max-width: 768px) {
-    #main-slider-container {
-      max-width: 100%;
-      margin-left: 0;
-    }
-  
-    /* Change the class name to slider-card */
-    .slider-card {
-      max-width: 100%;
-      margin: 0 5px;
-    }
-  
-    .react-card-slider-container {
-      max-height: 300px;
-    }
-  }
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -950px; /* Reduce the margin-bottom to bring sections closer */
+}
+
+.image-square {
+  width: 30%;
+  height: 200px;
+  padding-top: 30%; /* 1:1 aspect ratio */
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  border: solid;
+}
+
+.mission-vision {
+  border-top: 2px solid #333;
+  padding-top: 20px;
+}
+
+.mission-vision h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mission-vision p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+}

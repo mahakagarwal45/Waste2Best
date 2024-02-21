@@ -1,0 +1,97 @@
+.plastic-details-container {
+    text-align: center;
+  }
+  
+  .plastic-details-image {
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    margin-top: 0px;
+  }
+  .plastic-image{
+    width: 65%;
+    max-width: 100%;
+    height: 500px;
+    margin-top: 0px;
+  }
+  
+  p{
+    font-size: 0.6em; 
+    color: #0c0c0c;
+    text-align: center;
+    
+  
+  }
+  #title{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    color: #ef0707;
+    font-size: 2em; 
+    background-color: antiquewhite;
+  }
+  .paragraph1{
+    font-size:1.5em ;
+    color: black;
+    text-align:justify;
+  }
+  #why{
+    color: #1e6e59;
+    font-size: 1.8em; 
+    
+  }
+  
+  .one{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+  
+  }
+  .paragraph{
+    font-size:2em ;
+    color: rgb(240, 12, 12);
+    text-align:justify;
+    
+  }
+
+  .videocontent{
+    font-size:1.5em ;
+    color: black;
+    text-align:justify;
+    /* background-color: burlywood; */
+    background-image: url('https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149023491.jpg');
+    padding: 50px;
+  }
+
+
+  .video{
+    /* background-color:burlywood ; */
+    background-image: url('https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149023491.jpg');
+    padding-top: 80px;
+  }
+
+/* Add this CSS to create a grid layout for the video cards */
+.yt-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns in each row */
+  gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+/* Style for each video card */
+.yt-cards-container .card {
+  width: 100%;
+  margin-bottom: 20px; /* Adjust the margin between rows as needed */
+}
+
+.yt-cards-container .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yt-cards-container .card-title {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 10px; /* Adjust the margin between title and video as needed */
+}

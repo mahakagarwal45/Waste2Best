@@ -1,82 +1,21 @@
-// src/Login.js
-// import React, { useState } from "react";
-// import { auth, googleProvider } from "./firebase";
-// import "./Login.css";
-// import { useNavigate } from "react-router-dom";
-
-// const Login = () => {
-//   const [email, setEmail] = useState("");
-//   const [password, setPassword] = useState("");
-//   const [error, setError] = useState(null);
-//   const navigate = useNavigate();
-
-//   const handleEmailPasswordLogin = async () => {
-//     try {
-//       const result = await auth.signInWithEmailAndPassword(email, password);
-//       console.log(result.user); // Optional: Log the user details
-//       setError(null);
-//       navigate("/dashboard");
-//     } catch (error) {
-//       setError(error.message);
-//     }
-//   };
-
-//   const handleSocialLogin = async (provider) => {
-//     try {
-//       const result = await auth.signInWithPopup(provider);
-//       console.log(result.user); // Optional: Log the user details
-//       setError(null);
-//       navigate("/dashboard");
-//     } catch (error) {
-//       setError(error.message);
-//     }
-//   };
-
-//   return (
-//     <>
-//     <div className="login-container">
-//       <h2>Login</h2>
-//       {error && <p className="error-message">{error}</p>}
-//       <input
-//         type="email"
-//         placeholder="Email"
-//         value={email}
-//         onChange={(e) => setEmail(e.target.value)}
-//       />
-//       <input
-//         type="password"
-//         placeholder="Password"
-//         value={password}
-//         onChange={(e) => setPassword(e.target.value)}
-//       />
-//       <button onClick={handleEmailPasswordLogin}>Login with Email/Password</button>
-//       {/* Google Sign-In button */}
-//       <button onClick={() => handleSocialLogin(googleProvider)}>Login with Google</button>
-//     </div>
-//     </>
-
-//   );
-// };
-
-// export default Login;
 
 import React from "react";
 import "./Login.css";
-import firebase from 'firebase/app';
+// import firebase from 'firebase/app';
 import 'firebase/auth';
-// Import Firebase dependencies
+import {Link} from 'react-router-dom';// Import Firebase dependencies
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, set } from 'firebase/database';
 import { getAuth, createUserWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCWPkNWWl1mJqxk5q-Vfp0zaKf1hmiNG8Y",
-  authDomain: "waste2best-85b0d.firebaseapp.com",
-  projectId: "waste2best-85b0d",
-  storageBucket: "waste2best-85b0d.appspot.com",
-  messagingSenderId: "406540200873",
-  appId: "1:406540200873:web:157322c17c02fd91d432b8",
-  measurementId: "G-294VQGYRCN"
+  apiKey: "AIzaSyCsUA7rDUjQnDKF86KpbPQ_OHD7YmMFFgE",
+  authDomain: "waste2best-e11e5.firebaseapp.com",
+  projectId: "waste2best-e11e5",
+  storageBucket: "waste2best-e11e5.appspot.com",
+  messagingSenderId: "436018174473",
+  appId: "1:436018174473:web:2afb6dca5a6c3dab3bb6d8",
+  measurementId: "G-HX9VY2JYZX"
 };
 
 // Initialize Firebase
@@ -186,7 +125,7 @@ class Login extends React.Component {
             </div>
           </div>
           <button type="button" className="btn" onClick={this.handleLogin}>
-            Submit
+           <Link to="/"> Submit</Link>
           </button>
           <div className="google-box">
           <button type="button" className="btn" onClick={this.handleGoogleSignUp}>
@@ -194,7 +133,7 @@ class Login extends React.Component {
           </button>
         </div>
         <div className="signup-link">
-              Don't have an account? <span onClick={this.handleSignUp}>Register</span>
+              Don't have an account? <span onClick={this.handleSignUp}><Link to="/register">Register</Link></span>
         </div>
         </form>
         </div>

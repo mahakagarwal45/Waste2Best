@@ -1,0 +1,94 @@
+
+
+.registration-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #dbac91;
+    border-radius: 10px;
+    color: #080707;
+    font-size: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  }
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #dc1919;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #dc1919;
+  }
+  
+  input {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .address-box {
+    display: flex;
+  }
+  
+  .address-box input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #cf906c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #cf906c;
+  }
+  
+  .small-text {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 768px) {
+    .registration-container {
+      max-width: 100%;
+    }
+  }

@@ -1,0 +1,58 @@
+
+.contact-box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(213, 15, 15, 0.1);
+    border: solid;
+    border-color: rgb(42, 42, 43);
+}
+
+.background{
+    background-image: url('https://media.istockphoto.com/id/1310553941/photo/abstract-blur-blue-gradient-color-background-with-bokeh-round-light-for-summer-holiday-season.webp?b=1&s=170667a&w=0&k=20&c=gocTMj5e53W02s2icrkNUCtvUu3cZluikdgr-IyC9MY=');
+    background-repeat: "no-repeat";
+}
+.form-container {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px); /* Adjust for input padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #3bb9e2;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .contact-box {
+        padding: 10px;
+    }
+    
+    textarea {
+        height: 100px;
+    }
+}

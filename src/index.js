@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { initializeApp } from 'firebase/app';
 import ReactDOM from 'react-dom';
 import 'firebase/auth';
@@ -13,13 +14,13 @@ root.render(<App />);
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCWPkNWWl1mJqxk5q-Vfp0zaKf1hmiNG8Y",
-    authDomain: "waste2best-85b0d.firebaseapp.com",
-    projectId: "waste2best-85b0d",
-    storageBucket: "waste2best-85b0d.appspot.com",
-    messagingSenderId: "406540200873",
-    appId: "1:406540200873:web:157322c17c02fd91d432b8",
-    measurementId: "G-294VQGYRCN"
+  apiKey: "AIzaSyCsUA7rDUjQnDKF86KpbPQ_OHD7YmMFFgE",
+  authDomain: "waste2best-e11e5.firebaseapp.com",
+  projectId: "waste2best-e11e5",
+  storageBucket: "waste2best-e11e5.appspot.com",
+  messagingSenderId: "436018174473",
+  appId: "1:436018174473:web:2afb6dca5a6c3dab3bb6d8",
+  measurementId: "G-HX9VY2JYZX"
 };
 
 
@@ -31,7 +32,6 @@ root.render(
     <React.StrictMode>
       <App />
     </React.StrictMode>,
-    <Login/>
    
   </>
   );
@@ -39,7 +39,4 @@ root.render(
 
 
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();
+

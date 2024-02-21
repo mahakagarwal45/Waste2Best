@@ -1,0 +1,68 @@
+.contziner {
+  background-image: url('https://evisionthemes.com/wp-content/uploads/2020/12/pattern1-min.png');
+  background-size: cover;
+  }
+  
+  .container1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    cursor: pointer; /* Add this line to change the cursor to a hand */
+  }
+  
+  .card-grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .image-container1 {
+    width: 100%;
+    height: 0px;
+    padding-bottom: 100%;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .description1 {
+    padding: 15px;
+   
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  .description-text1 {
+    font-size: 60px; /* Adjust the font size as needed */
+  }
+  .facts{
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+height: auto; /* Maintain aspect ratio */
+display: block; /* Ensure the image behaves as a block element */
+margin: 0 auto;
+
+  }
+
+  #start{
+    margin-top: -90px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+  }

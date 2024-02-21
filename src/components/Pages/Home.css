@@ -3,68 +3,111 @@
   margin: 0;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
 .HomeElem {
   display: flex;
   align-items: flex-start;
   position: relative;
+  background-color: #f3b12e; /* Move background-color to .HomeElem */
+  margin-top: 0;
+  top: -150px;
 }
 
 .left {
-  flex: 1;
+  flex: 1.3;
 }
 
 .left img {
-  transform: translateY(-150px);
+  /* transform: translateY(-150px); */
   padding-right: 100px;
   max-width: 100%;
-  height: auto;
-  width: 90%;
-  max-height: 80vh;
-  -webkit-transform: translateY(-150px);
+  height: 650px;
+  width: 100%;
+  max-height: 100vh;
+  position: relative;
+
+  /* -webkit-transform: translateY(-150px);
   -moz-transform: translateY(-150px);
   -ms-transform: translateY(-150px);
-  -o-transform: translateY(-150px);
+  -o-transform: translateY(-150px); */
+  
+  /* max-width: 100%;
+  height: auto;
+  max-height: 100vh;
+  width: auto; 
+  display: block;
+  margin: 0;
+  padding: 0; */
 }
 
 .right {
+  /* Remove background-color here */
+
+  width: 100%;
   flex: 1;
   display: flex;
-  flex-direction: column; /* Adjusted to column */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 120px 0 0 0; 
+  /* background-color: #c2d4bb;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   */
+
 }
 
 .right p {
+  width: 100%;
   font-size: 30px;
-  color: #1f5156;
+  color: white;
   margin-bottom: 20px;
+  margin-right: 50px;
   font-family: Oswald;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .buttons-container {
   display: flex;
   margin-top: 20px;
-  flex-direction: row; /* Adjusted to column */
+  flex-direction: row;
   align-items: center;
   transform: translateX(100px);
-
 }
 
 .login-button,
 .register-button {
-  transform: translateY(20px); /* Adjusted translateY */
+  transform: translateY(20px);
   transform: translateX(-110px);
   padding: 10px 40px;
   margin: 7px 20px;
-  font-size: 1rem;
+  font-size: 20px;
   cursor: pointer;
-  background-color: #1f5156;
-  color: #fff;
-  border: none;
-  border-radius: 17px;
+  /* background-color: #FFF3CF; */
+  background-color: #f3b12e;
+  color:white ;
+  border: solid 2px white;
+  border-radius: 30px;
   font-family: Oswald;
+  
 }
 
+.login-button:hover{
+background-color: #c28917;
+}
+
+.register-button:hover{
+  background-color: #c28917;
+}
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   .HomeElem {

@@ -1,0 +1,42 @@
+/* SearchResult.css */
+
+/* Add your custom styles here */
+.container {
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #333;
+ padding-left: 220px;
+  }
+  
+  .item {
+   
+    padding-left:250px;
+    margin-bottom: 20px;
+  }
+  
+  .item h3 {
+    font-size: 30px;
+    color: #007bff; /* Blue color */
+  }
+  
+  .item p {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .item button {
+    background-color: #5096b5; /* Green color */
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .item button:hover {
+    background-color: #205870; /* Darker green on hover */
+  }
+  
