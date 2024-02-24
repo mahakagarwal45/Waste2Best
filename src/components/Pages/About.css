@@ -62,7 +62,7 @@
 }
 
 .mission-vision p {
-  font-size: 16px;
+  font-size: 25px;
   line-height: 1.5;
   margin-bottom: 0px;
 }
@@ -70,4 +70,10 @@
 
 .headingabout{
   padding-right: 150px;
+}
+#aboutpara{
+  font-size: 25px;
+}
+h3{
+  font-size: 50px;
 }

@@ -96,11 +96,11 @@ function NavBar({ onSearch, setSearchQuery }) {
           <div className="nav-icon" onClick={handleClick}>
             {click ? (
               <span className="icon">
-                <HamburgetMenuOpen />{" "}
+                <HamburgetMenuClose />{" "}
               </span>
             ) : (
               <span className="icon">
-                <HamburgetMenuClose />
+                <HamburgetMenuOpen />
               </span>
             )}
           </div>

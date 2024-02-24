@@ -73,7 +73,7 @@ const App = () => {
         <Route path="/register" element={<div className="pages"><Register /></div>} />
         <Route path="/dashboard" element={<div className="pages"><Dashboard /></div>} />
         <Route path="/details/glass/:1" element={<GlassDetails items={dummyItems} />} />
-        <Route path="/details/plastic/:2" element={<PlasticDetails items={dummyItems} />} />
+        <Route path="/details/plastics/:2" element={<PlasticDetails items={dummyItems} />} />
         <Route path="/details/Paper/:3" element={<Paper items={dummyItems} />} />
         <Route path="/details/Metals and Steels/:4" element={<MetalDetails items={dummyItems} />} />
         <Route path="/details/Jute and Jute Items/:4" element={<JuteDetails items={dummyItems} />} />
